@@ -1,0 +1,14 @@
+menu "XIAO BLE Battery Module"
+
+config XIAO_BLE_BATTERY
+    bool "Enable XIAO BLE Battery Support"
+    default y
+    select GPIO
+    select ADC
+    select SERIAL
+    select LOG
+    help
+      Enables the XIAO BLE Battery module.
+      Automatically enables GPIO, ADC, SERIAL, and LOG support.
+
+endmenu

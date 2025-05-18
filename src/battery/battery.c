@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#include "battery.h"
+#include <battery.h>
 
 #include <zephyr/kernel.h>
 #include <zephyr/device.h>

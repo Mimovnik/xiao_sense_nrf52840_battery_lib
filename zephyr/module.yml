@@ -1,0 +1,6 @@
+name: xiao_ble_battery
+build:
+  cmake: .
+  kconfig: Kconfig
+  dts_root: boards
+  dts_bindings: dts/bindings
